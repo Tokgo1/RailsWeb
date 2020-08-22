@@ -1,4 +1,4 @@
-source 'http://ruby.taobao.org' # 'https://rubygems.org'
+source 'https://rubygems.org' # 'http://ruby.taobao.org' # 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -9,6 +9,11 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.7'
 # Use sqlite3 as the database for Active Record
+gem 'bootstrap-will_paginate'
+gem 'bootstrap-sass'
+gem 'bcrypt' # bcrypt哈希算法计算密码
+gem 'jquery-rails'
+
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
