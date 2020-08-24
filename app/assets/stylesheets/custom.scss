@@ -144,6 +144,14 @@ input, textarea, select, .uneditable-input{
 input{
   height: auto !important;
 }
+.checkbox{
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span{
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
 
 /* error 错误消息的样式 */
 #error_explanation {
